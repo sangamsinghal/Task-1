@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+h3,h5,p{
+    font-family: 'Spartan', sans-serif;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.8125rem;
+    line-height: 3.125rem;
+    color: #222;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #222;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+/* feature */
+.feature h2, p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature .ProContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* ProContainer */
+.ProContainer .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 1px;
+    cursor: pointer;
+    margin: 15px 0px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+
+
+.ProContainer .pro span{
+    text-align: end;
+    padding: 0 10px;
+}
+
+.ProContainer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.ProContainer .pro img {
+    width: 100%;
+}
+
+
+
+/* Star */
+.checked {
+    color: orange;
+}
+
+.pro .level span .checked {
+    color: red;
+}
